@@ -6,7 +6,7 @@ import { Config } from '../models/config';
   providedIn: 'root'
 })
 export class ConfigService {
-  private readonly configurl = 'HttpClientModule';
+  private readonly configurl = '/api/config';
 
   constructor(private http: HttpClient) { }
 
